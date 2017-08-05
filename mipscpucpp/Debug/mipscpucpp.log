@@ -1,0 +1,7 @@
+﻿  instruction.cpp
+c:\users\esam\documents\visual studio 2017\projects\mipscpucpp\mipscpucpp\instruction.cpp(184): warning C4101: 'sd': unreferenced local variable
+c:\users\esam\documents\visual studio 2017\projects\mipscpucpp\mipscpucpp\instruction.cpp(216): warning C4101: 'b': unreferenced local variable
+c:\users\esam\documents\visual studio 2017\projects\mipscpucpp\mipscpucpp\instruction.cpp(216): warning C4101: 'd': unreferenced local variable
+c:\users\esam\documents\visual studio 2017\projects\mipscpucpp\mipscpucpp\instruction.cpp(228): warning C4293: '>>': shift count negative or too big, undefined behavior
+  mipscpucpp.vcxproj -> C:\Users\esam\documents\visual studio 2017\Projects\mipscpucpp\Debug\mipscpucpp.exe
+  mipscpucpp.vcxproj -> C:\Users\esam\documents\visual studio 2017\Projects\mipscpucpp\Debug\mipscpucpp.pdb (Partial PDB)
