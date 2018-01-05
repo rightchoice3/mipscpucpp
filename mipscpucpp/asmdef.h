@@ -1,7 +1,7 @@
 
 //These are convenient for writing test MIPS programs. These
 //are not used for implementing any instructions within the CPU.
-
+// not my code
 
 #define REG_ZERO (registers[0]) //constant zero
 #define REG_AT (registers[1]) 	//assembler temporary
