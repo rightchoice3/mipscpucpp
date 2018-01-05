@@ -1,0 +1,30 @@
+Using this (https://cs.nyu.edu/courses/fall11/CSCI-UA.0201-002/cpu_project/) guide , I created a basic semi-MIPS emulator. I followed almost everything in that guide exactly, so this may differ a little to the actual MIPS architecture. Download the code here:
+
+
+
+https://github.com/ekowmlb/mipscpucpp
+
+
+
+Here is an overview of some of the files:
+CPU.cpp - implements the CPU fetch- run cycle. This follows the steps underlined in the guide (CPU.h has definitions)
+
+
+
+INSTRUCTION.cpp - implements all of the instructions. 
+
+
+
+SYSCALL.cpp - defines syscall functions. Is the CPU's gate to the "outside world"
+
+
+
+Registers.h/Registers.c - Defines the registers. Register.cpp is simply defining a constructor.
+
+
+
+Memory.h/Memory.cpp - Defines memory. The CPP file contains a constructor only.
+
+
+
+asmdef.h - This is a bunch of macros that allows you to use the emulator.  Not all of the code in that file is mine. Some code comes from the guide.
